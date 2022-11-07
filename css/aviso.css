@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(235, 240, 241);
+}
+
+div.aviso {
+    background-color: rgb(211, 84, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 240, 241);
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 32px;
+    color: rgb(235, 240, 241);
+    text-align: justify;
+}
+
+button {
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(235, 240, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+}
+
+div.botoes {
+    text-align: center;
+}
+
+div.botoes:hover {
+    color: red;
+}
+
+button.continuar {
+    background-color: rgb(82, 190, 127);
+}
+
+button.parar {
+    background-color: rgb(229, 125, 33);  
+}
