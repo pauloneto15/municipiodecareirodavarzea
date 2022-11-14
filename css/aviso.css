@@ -1,12 +1,23 @@
+* {
+    padding: 0px;
+    margin: auto;
+}
+
 body {
     background-color: rgb(235, 240, 241);
 }
 
 div.aviso {
+    margin-top: 2%;
     background-color: rgb(211, 84, 0);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
     border-radius: 10px;
+    }
+
+@media (min-width: 600px) {
+    div.aviso {
+        width: 360px;
+    }
 }
 
 h1 {
@@ -23,21 +34,24 @@ p {
     text-align: justify;
 }
 
+p.agradecimento {
+    text-align: center;
+    text-indent: 0;
+}
+
 button {
+    width: 175px ;
     border-style: none;
     padding: 5px;
     border-radius: 5px;
     color: rgb(235, 240, 241);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.0em;
+    margin-top: 10px;
 }
 
 div.botoes {
     text-align: center;
-}
-
-div.botoes:hover {
-    color: red;
 }
 
 button.continuar {

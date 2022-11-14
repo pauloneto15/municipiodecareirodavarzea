@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(235, 240, 241);
+}
+
+div.tamanhoDaTela {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    animation-name: bemVindo;
+    animation-duration: 2s;
+}
+
+div.paragrafo {
+    background-color: rgb(82, 190, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: rgb(235, 240, 241);
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    width: 300px;
+    
+}
+
+@keyframes bemVindo {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
