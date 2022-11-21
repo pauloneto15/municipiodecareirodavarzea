@@ -13,8 +13,8 @@
   cursor: pointer;
 }
 
-.menuHeader:hover {
-  background-color: #BDC3C7;
+.menuHeader:active {
+  background-color: #95A5A6;
 }
 
 .pesquisarHeader {
@@ -27,5 +27,5 @@
 }
 
 .pesquisarHeader:hover {
-  background-color: #BDC3C7;
+  background-color: #95A5A6;
 }

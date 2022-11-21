@@ -4,26 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <title>Início</title>
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="css/icones.css">
+    <link rel="stylesheet" href="css/menu.css">
     <script type="text/javascript" src="js/menu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
+    <div class="conteudo">
     <header>
         <img class="menuHeader" onclick="cliqueMenu()" src="imgs/icones/menu.png" alt="botão menu">
-        <img src="imgs/logo.png" alt="">
+        <a href="home.html"><img id="logoMarca" src="imgs/logo.png" alt="logo do site"></a>
         <img class="pesquisarHeader" src="imgs/icones/pesquisar.png" alt="botão pesquisar">
     </header>
     <menu id="menuPrincipal">
-        <ul>
-            <li><a href="#">Opção 1</a></li>
-            <li><a href="#">Opção 2</a></li>
-            <li><a href="#">Opção 3</a></li>
-            <li><a href="#">Opção 4</a></li>
-            <li><a href="#">Opção 5</a></li>
-        </ul>
+       <ul>
+        <li><a href="#">Opção 1</a></li>
+       <div class="botaoMenuSuspenso" onclick="exibirMenuCidade()"><button class="menuSuspenso">A Cidade</button></div>
+       <div id="menuDaCidade">
+        <li><a href="#">História</a></li>
+        <li><a href="#">Imagens</a></li>
+       </div>
+       <li><a href="#">Opção 1</a></li>
+       </ul>
     </menu>
-    <input type="checkbox" id="checkbox_toggle" />
- <label for="" class="">&#9776;</label>
+  <main>
+    <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque, adipisci in, odit voluptatum ut sunt dolor quod temporibus aliquam error facere unde eum iusto optio. Atque possimus totam quaerat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam delectus doloremque possimus aperiam eos aliquid voluptatem sapiente ut repudiandae a necessitatibus, asperiores ad accusamus iste inventore. Maiores consectetur expedita reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. In consequuntur sit laboriosam, modi blanditiis, adipisci id at esse rem expedita sapiente aperiam reiciendis perferendis harum aliquam itaque! Nobis, temporibus cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error totam perferendis voluptas deleniti esse? Consequatur quaerat voluptatibus assumenda, quae, dolore magnam veritatis possimus quibusdam dignissimos sit, iusto praesentium architecto mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora quasi esse maiores quas blanditiis at velit, possimus dolorum, ut vitae odit quo? Facere, dolorum quod modi nam repellat sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto fugit necessitatibus et sapiente architecto cumque natus ipsa pariatur ex id, enim modi reprehenderit blanditiis recusandae quae delectus fugiat optio harum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quidem aut illum sunt neque ea cupiditate. Accusamus maxime aut totam ut aliquid in nobis consectetur sequi quam minima? Aliquid, magnam.</p>
+    <footer>
+        <p>Site desenvolvido por Paulo Neto</p>
+    </footer>
+ </main>
+</div>
+<div class="apenasCelulares">
+    Site disponível apenas para celulares.
+</div>
 </body>
 </html>

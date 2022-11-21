@@ -5,3 +5,11 @@ function cliqueMenu () {
         menuPrincipal.style.display = 'block'
     }
 }
+
+function exibirMenuCidade () {
+    if (menuDaCidade.style.display == 'block') {
+        menuDaCidade.style.display = 'none'
+    } else {
+        menuDaCidade.style.display = 'block'
+    }
+}
