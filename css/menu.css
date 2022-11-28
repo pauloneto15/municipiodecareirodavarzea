@@ -5,8 +5,17 @@
 }
 
 menu {
-    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-100%);
     background-color: rgb(82, 190, 127);
+    transition: transform 0.5s ease;
+}
+
+#menuDaCidade {
+    display: none;
+    transition: display 5s ease;
 }
 
 #menuPrincipal ul li a, .menuSuspenso {
@@ -20,7 +29,8 @@ menu {
     cursor: pointer;
     outline: none;
     font-size: 1.2em;
-    padding: 10px;   
+    padding: 10px;
+    
 }
 
 .botaoMenuSuspenso:hover {
@@ -29,10 +39,4 @@ menu {
 
 #menuDaCidade {
     background-color: #95A5A6;
-    display: none;
-}
-
-@keyframes menuAbaixa {
-    from {opacity: 0;}
-    to {opacity: 1;}
 }

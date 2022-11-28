@@ -1,8 +1,8 @@
 function cliqueMenu () {
-    if (menuPrincipal.style.display == 'block') {
-        menuPrincipal.style.display = 'none'
+    if (menuPrincipal.style.transform == 'translateY(0%)') {
+        menuPrincipal.style.transform = 'translateY(-100%)'
     } else {
-        menuPrincipal.style.display = 'block'
+        menuPrincipal.style.transform = 'translateY(0%)'
     }
 }
 
